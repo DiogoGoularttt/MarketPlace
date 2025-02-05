@@ -1,0 +1,7 @@
+.logo {
+    @apply h-auto w-auto
+}
+
+.menu-icons {
+    @apply w-20;
+}
