@@ -7,13 +7,12 @@ export default function SearchInput() {
         <>
             <Input
                 radius='sm'
-                size='sm'
-                labelPlacement="outside"
+                size='md'
                 placeholder="Estou buscando..."
-                startContent={
+                endContent={
                     <TbZoom className="text-xl text-default-400 pointer-events-none flex-shrink-0" />
                 }
-                type="email"
+                type="text"
             />
         </>
     );
