@@ -1,0 +1,15 @@
+.menu-item {
+    @apply pt-3 pb-3 flex items-center text-zinc-700;
+}
+
+.menu-item-icon {
+    @apply text-2xl text-zinc-700;
+}
+
+.menu-item-link {
+    @apply pl-3 text-base;
+}
+
+.menu-button {
+    @apply text-[11pt] font-semibold border-[1.2px] border-blue-700 w-full p-2 rounded-md;
+}
